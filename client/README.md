@@ -5,7 +5,7 @@ This is a full-stack task management application built with the MERN stack (Mong
 
 Clone the repository:
 
-git clone <repository-url>
+git clone https://github.com/RishiPastor05/task-manager-app.git
 
 For backend Setup:
 Create a ".env" file:
