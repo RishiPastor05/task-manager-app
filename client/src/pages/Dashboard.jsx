@@ -80,7 +80,7 @@ const Dashboard = () => {
             <option>Medium</option>
             <option>High</option>
           </select>
-          <button type="submit" className="bg-indigo-600 text-white px-4 py-2 rounded">Add Task</button>
+          <button type="submit" className="bg-indigo-600 text-white px-4 py-2 rounded">Add New Task</button>
         </form>
 
         <div className="mb-4">
