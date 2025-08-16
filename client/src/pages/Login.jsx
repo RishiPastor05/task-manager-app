@@ -24,7 +24,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-full max-w-sm space-y-4">
+      <form onSubmit={handleSubmit} className="bg-white p-6 rounded border-2 shadow-md w-full max-w-sm space-y-4">
         <h2 className="text-xl font-bold text-center">Login</h2>
         {error && <p className="text-red-500 text-sm text-center">{error}</p>}
         <input type="email" name="email" placeholder="Email" onChange={handleChange} required className="w-full border p-2 rounded" />
